@@ -1,7 +1,7 @@
 # DataCapture_Project
 The DataCapture object accepts numbers and returns an object for querying statistics about the inputs. Specifically, the returned object supports querying how many numbers in the collection are less than a value, greater than a value, or within a range.
 
-CHALLENGE CONDITIONS:
+# CHALLENGE CONDITIONS:
 
 o You cannot import a library that solves it instantly
 o The methods add(), less(), greater(), and between() should have
@@ -10,7 +10,7 @@ o The method build_stats() can be at most linear O(n)
 o Apply the best practices you know
 o Share a public repo with your project
 
-SOLUTION:
+# SOLUTION:
 
 The project was done by creating two classes. One for capturing the data from the user and
 the second one was for statistics over that data based on the requirements.
@@ -25,7 +25,7 @@ print(stats.less(4))
 print(stats.between(3, 6))
 print(stats.greater(4))
 
-TESTING
+# TESTING
 
 Testing file is test_model.py in the main folder and to run it, it is only necessary to run in
 the terminal python test_model.py
